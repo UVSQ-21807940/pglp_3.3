@@ -20,4 +20,18 @@ public class testR {
         Robot r = new Robot(null, null);
         assertTrue(r != null);
     }
-    }
+
+	 @Test
+	    public void testM(){
+	        RobotMobile r = new RobotMobile(null, null);
+	        r.avance();
+	    }
+	 
+	
+	 @Test
+		public void testRS() {
+			Position p = new Position(1,5);
+			robostat rs = new robostat(p);
+		}
+	 
+}
